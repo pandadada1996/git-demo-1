@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>个 人 简 历</title>
-    <link rel="stylesheet" href="./a.css">
-  </head>
-
-  <body>
-    <div class="topNavBar clearfix">
+<head>
+  <title>个 人 简 历</title>
+  <link rel="stylesheet" href="./a.css">
+  <script src="//at.alicdn.com/t/font_915115_96pr85adejb.js"></script>
+  <style type="text/css">
+    .icon {
+       width: 1em; height: 1em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }
+</style>
+</head>
+<body>
+  <div class="topNavBar">
+    <div class="topNavBar-inner clearfix">
       <a class="logo" href="#" alt="logo" style="float: left;">
-        <span class="rs">RS</span><span class="card">card</span>
+        <span class="rs">RS</span>
+        <span class="card">card</span>
       </a>
-      <nav style="float:right;">
+      <nav style="float: right;">
         <ul class="clearfix">
           <li>
             <a href="#">关于</a>
@@ -36,17 +46,20 @@
         </ul>
       </nav>
     </div>
-    <div class="banner" style="background-image: url()"></div>
-    <main>
-      <div class="card">
-      <div class="picture">
-      <img src="" alt="头像">
-      </div>
-      <div class="text">        
-      </div>
-          <div class="summary">          
-          </div>
-          <span class="welcome">Hello</span>
+  </div>
+  <div class="banner">
+    <div class="mask"></div>
+  </div>
+  <main>
+    <div class="userCard">
+      <div class="pictureAndText clearfix">
+        <div class="picture">
+          <img src="./img/avatar.jpg" width=299 height=347 alt="头像">
+        </div>
+        <div class="text">
+          <span class="welcome">Hello
+            <span class="triangle"></span>
+          </span>
           <h1>王仕达</h1>
           <p>前端开发工程师</p>
           <hr>
@@ -61,49 +74,59 @@
             <dd>17685429390</dd>
           </dl>
         </div>
-        <footer class="media">
-          <a href="http://"><img src="#" alt="#"></a>
-          <a href="http://"><img src="#" alt="#"></a> 
-          <a href="http://"><img src="#" alt="#"></a> 
-          <a href="http://"><img src="#" alt="#"></a> 
-          <a href="http://"><img src="#" alt="#"></a> 
-          <a href="http://"><img src="#" alt="#"></a> 
-          <a href="http://"><img src="#" alt="#"></a>  
-        </footer>
       </div>
-      </div>
-      <a class ="button" href="#">下载</a>
-      <p>
-        _(:q」∠)_
-      </p>
-    </main>
-    <section>
-      <h2>技能</h2>
-      <ol>
-        <li>HTML 5 &amp; CSS 3</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>Vue</li>
-        <li>React</li>
-        <li>HTTP</li>
-      </ol>
-    </section>
-    <section>
-      <h2>作品集</h2>
-      <nav>
-        <ol>
-          <li>所有</li>
-          <li>框架</li>
-          <li>原生JS&amp;CSS</li>
-        </ol>
-      </nav>
+      <footer class="media">
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-github"></use>
+         </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-twitter"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-weibo"></use>
+         </svg>
+        </a>
+      </footer>
+    </div>
+    <a class="button" href="#">下载 PDF 简历</a>
+    <p>
+      _(:q」∠)_
+      <br> 技能：前端开发，Rails 开发，Node.js 开发
+    </p>
 
-      <div class="jobs">
-        <div class="big"></div>
-        <div class="small"></div>
-        <div class="small"></div>
-      </div>
-      
-    </section>
-  </body>
+  </main>
+  <section>
+    <h2>技能</h2>
+    <ol>
+      <li>HTML 5 &amp; CSS 3</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+      <li>Vue</li>
+      <li>React</li>
+      <li>HTTP</li>
+    </ol>
+  </section>
+  <section>
+    <h2>作品集</h2>
+    <nav>
+      <ol>
+        <li>所有</li>
+        <li>框架</li>
+        <li>原生JS&amp;CSS</li>
+      </ol>
+    </nav>
+    <div class="jobs">
+      <div class="big"></div>
+      <div class="small"></div>
+      <div class="small"></div>
+    </div>
+
+  </section>
+</body>
+
 </html>
